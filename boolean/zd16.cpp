@@ -4,5 +4,5 @@ int main()
 {
     int a;
     cin>>a;
-    cout<<boolalpha<<(a%2==0);
+    cout<<boolalpha<<(a<100 and a>10 and a%2==0);
 }
